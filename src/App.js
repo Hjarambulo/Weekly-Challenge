@@ -1,6 +1,7 @@
 import React from 'react';
 import './assets/css/App.css';
 import axios from 'axios';
+import Header from './components/Header'
 import {
   BrowserRouter as Router,
   Switch,
@@ -128,14 +129,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className='ArticleContainer'>
-          <div className="header">
-            <h1>MY BLOG</h1>
-            <div className="btn-group">
-              <Link to="/" className="btn">Home</Link>
-              <Link to="/addArticle" className="btn">Agregar post</Link>
-            </div>
-          </div>
-          
+          <Header/>          
           <Switch>
             <Route path="/addArticle">
               <div className='AddArticle'>
