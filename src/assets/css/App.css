@@ -102,3 +102,20 @@ article .edit {
 article .cancel {
   color: orange;
 }
+
+@media (max-width:600px){
+  .ArticleContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width:500px){
+  .header{
+    flex-direction: column;
+  }
+
+  h1{
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}

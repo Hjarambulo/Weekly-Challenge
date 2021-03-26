@@ -130,7 +130,7 @@ class App extends React.Component {
         <div className='ArticleContainer'>
           <div className="header">
             <h1>MY BLOG</h1>
-            <div className="btn-goup">
+            <div className="btn-group">
               <Link to="/" className="btn">Home</Link>
               <Link to="/addArticle" className="btn">Agregar post</Link>
             </div>
